@@ -38,6 +38,28 @@ każdego wiersza poza ostatnim, powinien być przecinek, a w ostatnim kropka.
         System.out.println(result);
     }
 
+    /* rozwiązanie z wykorzystaniem iteratora
+    private void printMap(Map<String, Integer> map){
+        StringBuilder stringBuilder = new StringBuilder();
+        Iterator<Map.Entry<String, Integer>> iterator = map.entrySet().iterator();
+        while(iterator.hasNext()){
+            Map.Entry<String, Integer> item = iterator.next();
+            stringBuilder.append("Klucz: ")
+                    .append(item.getKey())
+                    .append(", Wartość: ")
+                    .append(item.getValue());
+            if(iterator.hasNext()){
+                stringBuilder.append(",")
+                .append(System.lineSeparator());
+            }else{
+                stringBuilder.append(".");
+            }
+        }
+        System.out.println(stringBuilder);
+    }
+
+     */
+
 
 
 }
