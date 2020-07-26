@@ -1,7 +1,6 @@
-package Ex07;
+package Ex07_Multithreading;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 
 public class MultithreadApp {
     public static void main(String[] args) throws InterruptedException {

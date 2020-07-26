@@ -1,4 +1,4 @@
-package Ex07;
+package Ex07_Multithreading;
 
 public class ExtendedCounter {
 

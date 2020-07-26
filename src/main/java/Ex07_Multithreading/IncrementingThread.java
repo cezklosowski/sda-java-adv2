@@ -1,6 +1,5 @@
-package Ex07;
+package Ex07_Multithreading;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class IncrementingThread extends Thread {
